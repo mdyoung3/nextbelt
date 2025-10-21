@@ -1,0 +1,33 @@
+# Drupal-specific files and directories to ignore# Exclude core directory
+/web/core
+# Exclude vendor directory
+/vendor/
+# Exclude Drupal settings files
+/web/sites/*/settings.*.php
+# Exclude Drupal services files
+/web/sites/*/services*.yml
+# Exclude Drupal files and private directories
+/web/sites/*/files
+/web/sites/*/private
+# Exclude Drupal simpletest directory
+/web/sites/simpletest
+# Directories specific to this template
+# Exclude libraries directory
+#/web/libraries
+# Exclude contributed modules directory
+/web/modules/contrib
+# Exclude contributed profiles directory
+/web/profiles/contrib
+# Exclude contributed themes directory
+/web/themes/contrib
+# Sass
+.sass-cache
+*.css.map
+# NPM
+npm-debug.log
+node_modules/
+# Database backups
+*.gz
+*.sql.gz
+*.sql
+.idea
