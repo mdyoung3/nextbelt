@@ -31,3 +31,5 @@ node_modules/
 *.sql.gz
 *.sql
 .idea
+
+node_modules
